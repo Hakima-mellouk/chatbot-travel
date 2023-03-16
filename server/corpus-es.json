@@ -1,0 +1,577 @@
+{
+  "name": "Corpus es",
+  "locale": "es-ES",
+  "data": [
+    {
+      "intent": "bonjour.arab",
+      "utterances": [
+        "مساء الخير"
+       , "صباح الخير"
+        ,"أهلاً"
+        ,"سلام"
+    ],
+    "answers": [
+      { "answer": "مرحبًا!"},
+      { "answer":"مساء الخير"},
+      { "answer":"سلام"}
+    ]
+    },
+    {
+      "intent": "langues.arab",
+      "utterances":[
+        "تتكلم الفرنسية؟"
+        ,"تتكلم الفرنسية؟"
+        ,"هل تتكلم الفرنسية"
+        ,"تتكلم الإنجليزية؟"
+        ,"أنت تتكلم بالإنجليزية؟"
+       , "هل تتكلم بالإنجليزية"
+
+    ],
+    "answers": [
+      { "answer": "نعم بالطبع!"},
+      { "answer":"نعم!"}
+    ]
+    },
+    {
+      "intent": "bye.arab",
+      "utterances": [
+        "الى اللقاء"
+       , "أراك المرة القادمة"
+    ],
+    "answers": [
+      { "answer": "الى اللقاء!" },
+
+      { "answer": "أراك المرة القادمة!"}
+    ]
+    },
+    {
+      "intent": "cava.arab",
+      "utterances": [
+        "كيف حالك؟"
+      , "كيف الحال؟"
+   ],
+   "answers": [
+     { "answer": "ممتاز! شكرًا" },
+     { "answer": "بخير شكرا لك" }
+   ]
+ },
+  
+    {
+      "intent": "doing.arab",
+      "utterances": [
+        "ماذا تفعل؟",
+        "ماذا تفعل الآن؟"
+    ],
+    "answers": [
+      { "answer": "أنا في انتظار أسئلتك :)" }
+    ]
+    },
+    {
+      "intent": "age.arab",
+      "utterances": [
+        "كم عمرك؟",
+        "عمر"
+      ],
+      "answers": [
+        { "answer": "ثلاثة أشهر" }
+      ]
+    },
+    {
+      "intent": "nom.arab",
+      "utterances": [
+        "ما اسمك؟",
+        "ما هو اسمك؟"
+      
+    ],
+    "answers": [
+      { "answer": "انا اسمي" }
+    ]
+    },
+    {
+      "intent": "tuqui.arab",
+      "utterances": [
+        "من أنت"
+        
+      
+    
+    ],
+    "answers": [
+      { "answer": "أنا أفضل مساعد سفر" }
+    ]
+    },
+    {
+      "intent": "qst.arab",
+      "utterances": [
+        "عندي سؤال"
+    ],
+    "answers": [
+      { "answer": "vas y" },
+      { "answer": "كيف يمكنني مساعدة" }
+    ]
+    },
+    {
+      "intent": "villes.arab",
+      "utterances": [
+        "ما هي مدن المغرب السياحية؟"
+      ],
+      "answers": [
+        {
+          "answer": "مراكش ، طنجة ، أكادير"
+        },{
+          "answer": "مراكش ، شفشاون ، تطوان"
+        },{
+          "answer": "مراكش ، الرباط ، الحسيمة"
+        },{
+          "answer": "مراكش ، الصويرة ، الداخلة"
+        }
+      ]
+    },
+    {
+      "intent": "hotel.arab",
+      "utterances": [
+        "ما هي الفنادق الأفضل تصنيفًا في مراكش؟"
+       , "ما هي أفضل الفنادق في مراكش" 
+       , "ما الفنادق التي تنصح بها في مراكش؟" 
+        ,"ماذا تقدمون في فنادق مراكش؟"
+    ],
+    "answers": [
+     {
+        "answer": "four seasons \nhttps://www.fourseasons.com/marrakech/\n Sofitel Marrakech Palais Imperial\n https://sofitelmarrakechimperial.hotels-marrakesh.com/fr/\n Royal Mansour Marrakech\n https://www.royalmansour.com/\n The Oberoi Marrakech \nhttps://www.oberoihotels.com/fr-fr/hotels-au-maroc-marrakech/ \n Fairmont Royal Palm Marrakech \nhttps://www.fairmont.com/marrakech/\n Les Jardins De La Koutoubia \nhttp://www.lesjardinsdelakoutoubia.com/fr/hotel-luxe-marrakech"
+      }
+    ]
+    },
+    {
+      "intent": "espace.arab",
+      "utterances": [
+        "ما هي الأماكن الجيدة للزيارة في مراكش" 
+       , "اقتراح أماكن سياحية لزيارتها في مراكش" 
+        ,"ما هي آثار مراكش"
+    ],
+    "answers": [
+      {
+        "answer": "هناك العديد من الأماكن الرائعة في مراكش التي يمكنك زيارتها مثل: \n ** Le Jardin Secret \n ** Jardin Majorelle \n ** قصر الباهية \n ** جامع الفناء \n ** مسجد الكتبية \n * * متحف إيف سان لوران مراكش "
+        
+      }
+    ]
+    },
+    {
+      "intent": "activities.arab",
+      "utterances": [
+        "ما هي الأنشطة التي يمكنني القيام بها في مراكش" 
+        ,"الأنشطة المبهجة التي يمكنني القيام بها في مراكش؟" 
+        ,"ما هي أفضل الأشياء للقيام بها في مراكش"
+    ],
+    "answers": [
+      {
+        "answer": "إليك بعض الأنشطة الجيدة لتمضية وقتك في مراكش: \n ** رحلة منطاد الهواء الساخن فوق مراكش \n ** صحراء أجافاي - جمل رباعي \n ** مغامرة صحراء مراكش بالميرا رباعية الدراجة \n ** 'أوزود من مراكش مع ركوب القارب \n "
+    }
+    ]
+    },
+    {
+      "intent": "Marrakechrestaurant.arab",
+      "utterances": [
+        "ما هي أفضل المطاعم في مراكش؟" 
+        ,"ما هي أفضل المطاعم في مراكش" 
+        ,"ما المطاعم التي تنصحني بها في مراكش؟" 
+        ,"ماذا تقترح في مطاعم مراكش؟"
+      ],
+      "answers": [
+        {
+          "answer": "فيما يلي بعض من أفضل المطاعم التي يمكنك زيارتها في مراكش: La Table Ocre \n https://www.medinamall.ma/table-ocre \n Nouba \n https://nouba-marrakech.ma/ Votre Table \n https://www.votretablemarrakech.com/ "
+        }
+      ]
+    },
+    {
+      "intent": "espacerabat.arab",
+      "utterances": [
+        "ما هي الأماكن الجيدة للزيارة في الرباط" 
+       , "اقتراح أماكن سياحية للزيارة في الرباط" 
+        ,"ما هي آثار الرباط"
+    ],
+    "answers": [
+      {
+        "answer": "إليك بعض أفضل الأماكن التي يجب أن تزورها إذا أتيت إلى الرباط: برج حسن \n قصبة الأوداية \n ضريح محمد الخامس  n الحدائق الأندلسية \n حدائق غريبة "
+    }
+    ]
+    },
+    {
+      "intent": "acteRabat..arab",
+      "utterances": ["ما هي الأنشطة التي يمكنني القيام بها في الرباط؟" 
+      ,"الأنشطة السعيدة التي يمكنني القيام بها في الرباط؟" 
+      ,"ما هي أفضل الأشياء التي يمكنك القيام بها في الرباط؟"
+      ],
+      "answers": [
+        {
+          "answer": "يمكنك زيارة 'Escape Now Rabat' ، أكبر مركز ألعاب إسكيب في الرباط ، ويدعوك لاكتشاف 3 غرف هروب مختلفة وغامرة. في غرفة غامضة ، سيتعين عليك حل الألغاز وكشف الألغاز وفتح الأقفال والأبواب السرية أثناء العمل معًا لتحقيق الهدف النهائي المتمثل في الهروب في أقل من 60 دقيقة. \n -> يمكنك زيارة Electric Dreams هي المساحة الأولى المخصصة للواقع الافتراضي في المغرب. نحن نمثل أحدث التقنيات والترفيه من خلال توفير تجارب الواقع الافتراضي للناس في المغرب. لدينا ألعاب وتجارب فردية ومتعددة اللاعبين تتراوح من إطلاق النار على الزومبي إلى استكشاف مواقع في العالم الحقيقي وحتى التشريح الطبي الدقيق علميًا. \n -> يمكنك زيارة Le Mur ، أول وأكبر صالة رياضة تسلق في المغرب. يقع Le Mur في قلب الرباط بجوار أفخم فندق نقدم أكثر من 120 طريقًا للتسلق ومنطقة خاصة للصخور. "
+        }
+      ]
+    },
+    {
+      "intent": "hotelEssa.arab",
+      "utterances": ["ما هي الفنادق الأفضل تصنيفًا في الصويرة؟"
+      ,"ما هي أفضل الفنادق في الصويرة" 
+      ,"ما الفنادق التي تنصحني بها في الصويرة؟" 
+      ,"ماذا تقدمون في فنادق الصويرة؟"
+      ],
+      "answers": [
+        {
+          "answer": "هناك العديد من الفنادق المرموقة مثل: relais chateaux https://www.relaischateaux.com/fr/maroc/heurebleue-essaouira\n -->PRESTIGIA ESSAOUIRA MOGADOR Luxury en bord de mer https://prestigia-mogador-diabat.booked.net/ \n -->Maison Kasba Bonheur & Bien etre Emma & Gilles https://kasbabonheuretbien-etre.com/\n --> Sofitel Essaouira Mogador Golf & Spa https://www.sofitel-essaouira.com/  "
+          
+    }]
+    },
+    {
+      "intent": "espaceEssa.arab",
+      "utterances": [
+        "ما هي الأماكن الجيدة للزيارة في الصويرة" 
+        ,"اقتراح أماكن سياحية لزيارتها في الصويرة" 
+        ,"ما هي آثار الصويرة"
+    ],
+    "answers": [
+     
+      {
+        "answer": "إليك بعض الأماكن الشيقة التي يمكنك زيارتها في الصويرة: -> Galerie la Kasbah \n -> Centre de la Bijouterie Artisanale Maalem Ali 1908 \n -> السوق \n -> ميناء الصيد بالصويرة \n -> مركز ريل موغادور للفنون "
+      }
+    ]
+    },
+    {
+      "intent": "Rabatrestaurant.arab",
+      "utterances": [
+        "ما هي أفضل المطاعم في الرباط؟" 
+       , "ما هي أفضل مطاعم الرباط" 
+       , "ما المطاعم التي تنصحني بها في الرباط؟" 
+        ,"ماذا تقترح في مطاعم الرباط؟"
+      ],
+      "answers": [
+        {
+          "answer": "وهنا بعض من أفضل المطاعم التي يمكنك زيارتها في الرباط: مطعم Sufra \n https://restaurantguru.com/Resturant-sufra-Rabat\n ​​basilico restoconcept \n Golden Fish \n https://www.visitrabat.com / en / lieux / golden-fish / "
+        }
+      ]
+    },
+    {
+      "intent": "activESS.arab",
+      "utterances": [
+        "ما هي الأنشطة التي يمكنني القيام بها في الصويرة؟" 
+       , "أنشطة سعيدة يمكنني القيام بها في الصويرة؟" 
+       , "ما هي أفضل الأشياء التي يمكنك القيام بها في الصويرة؟"
+    ],
+    "answers": [
+      
+      {
+        "answer": "هناك العديد من الأنشطة الشيقة والممتعة التي يمكنك القيام بها في الصويرة: مثل ركوب الخيل الذي يوفر لك ركوب الخيل والجمال في الصويرة ومنطقتها. يمكنك اكتشاف المناظر الطبيعية البرية والرائعة بين الشواطئ والكثبان والغابات لتجربة لا تُنسى \n -> يمكنك تجربة ركوب الأمواج على شواطئ الصويرة "
+    }
+    ]
+    },
+    {
+      "intent": "hotalEss.arab",
+      "utterances": [
+        "ما هي الفنادق الأفضل تصنيفًا في أغادير؟"
+       , "ما هي أفضل الفنادق في أغادير" 
+       , "ما الفنادق التي توصي بها في أغادير؟" 
+       , "ماذا تقدم في الفنادق في أغادير؟"
+    ],
+    "answers": [
+      {
+        "answer": "هناك العديد من الفنادق المرموقة مثل : -->Hotel Riu Palace Tikida Agadir  -->Hotel Riu Palace Tikida Agadir https://www.riu.com/en/hotel/morocco/agadir/hotel-riu-palace-tikida-agadir/\n-->Tikida Golf Palace - Relais & Châteaux https://www.tikidagolfpalace.com/en/\n --> Hyatt Place Taghazout Bay https://www.hyatt.com/en-US/hotel/morocco/hyatt-place-taghazout-bay/agazt \n -->Fairmont Taghazout Bay https://www.fairmont.com/taghazout/"  
+  }
+    ]
+    },
+    {
+      "intent": "Essaouirarestaurant.arab",
+      "utterances": [
+        "ما هي أفضل المطاعم في الصويرة؟" 
+        ,"ما هي أفضل مطاعم الصويرة" 
+        ,"ما المطاعم التي تنصحني بها في الصويرة؟" 
+        ,"ماذا تقترح في مطاعم الصويرة؟"
+      ],
+      "answers": [
+        {
+          "answer": "هنا بعض من أفضل المطاعم التي يمكنك زيارتها في الصويرة: O'Bleu Mogador \n https://obleu-mogador.com/ \n La Table by Madada \n https://madada.com/restaurant-essaouira / \n L'Heure Bleue Palais \n https://www.heure-bleue.com/ "
+        }
+      ]
+    
+    },
+    {
+      "intent": "Agadirrestaurant.arab",
+      "utterances": [
+        "ما هي أفضل المطاعم المصنفة في أغادير؟" 
+       , "ما هي أفضل المطاعم في أغادير" 
+        ,"ما المطاعم التي تنصحني بها في أغادير؟" 
+        ,"ماذا تقترح في مطاعم أغادير؟"
+      ],
+      "answers": [
+        {
+          "answer": "إليك بعض من أفضل المطاعم التي يمكنك زيارتها في أغادير: L'Ardoise Gourmande \n https://www.ardoise-gourmande.com/ \n Somasushi \n somasushi.ma \n Le Petit Kawa \n Roastery Agadir \n "
+        }
+      ]
+    },
+    {
+      "intent": "espaceAgadir.arab",
+      "utterances": [
+  
+        "ما هي الأماكن الجيدة للزيارة في أكادير" 
+        ,"اقتراح أماكن سياحية لزيارتها في أكادير" 
+       , "ما هي المعالم الأثرية في أغادير"
+    ],
+    "answers": [
+     
+      {
+        "answer": "إليك بعض الأماكن الممتعة التي يمكنك زيارتها في أغادير: -> Agadir Oufella \n -> سوق الحد \n -> Crocoparc \n -> شقق مارينا فاخرة أغادير \n -> Agadir Dolphin World "
+    }
+    ]
+    },
+    {
+      "intent": "activAgadi.arab",
+      "utterances": [
+  
+        "ما هي الأنشطة التي يمكنني القيام بها في أكادير؟" 
+       , "الأنشطة المبهجة التي يمكنني القيام بها في أكادير؟" 
+       , "ما هي أفضل الأشياء للقيام بها في أغادير؟"
+    ],
+    "answers": [
+      
+      {
+        "answer": "هناك العديد من الأنشطة الممتعة والممتعة التي يمكنك القيام بها في أغادير: -> Agadir ATV Quad / Wild Beach Dunnes والغابة في قلب مدينة أغادير \n -> جولة منطاد الهواء الساخن في أغادير \n--> ركوب الخيل"
+    }
+    ]
+    },
+    {
+      "intent": "uhotelTangier.arab",
+      "utterances": [
+        "ما هي الفنادق الأفضل تصنيفًا في طنجة؟" 
+       , "ما هي أفضل الفنادق في طنجة" 
+       , "ما الفنادق التي تنصح بها في طنجة؟" 
+       , "ماذا تقدمون في فنادق طنجة؟"
+    ],
+    "answers": [
+      {
+        "answer": "هناك العديد من الفنادق المرموقة مثل: -->Marina Bay  https://marinabay.com-hotel.com/ \n --> Fairmont Tazi Palace Tangier https://www.fairmont.com/tangier/ \n --> Hilton Tanger City Center Hotel & Residences https://www.hilton.com/en/hotels/tngcchi-hilton-tanger-city-center-hotel-and-residences/ \n Grand Hotel Villa de France  https://leroyal.com/en/AFRICA/grand-hotel-villa "
+      }
+    ]
+    },
+  
+
+
+
+{
+    "intent": "TangerPlacesToVisit.arab",
+  "utterances": [
+
+       "ما هي الأماكن الجيدة للزيارة في طنجة" 
+      , "اقتراح أماكن سياحية لزيارتها في طنجة" 
+      , "ما هي آثار طنجة"
+  ],
+  "answers": [
+   
+    {
+      "answer": "إليك بعض الأماكن الشيقة التي يمكنك زيارتها في طنجة: -> كهوف هرقل \n -> متحف القصبة \n -> كيب سبارتل \n -> شاطئ أشكار \n -> شاطئ داليا"
+    }
+  ]
+},
+{
+  "intent": "Tangeractivities.arab",
+  "utterances": [
+      "ما هي الأنشطة التي يمكنني القيام بها في طنجة؟" 
+      ,"أنشطة مبهجة يمكنني القيام بها في طنجة؟" 
+      ,"ما هي أفضل الأشياء للقيام بها في طنجة؟"
+  ],
+  "answers": [
+    
+    {
+      "answer": "هناك العديد من الأنشطة الشيقة والممتعة التي يمكنك القيام بها في طنجة: -> ركوب الجمال في طنجة على الشاطئ \n "
+    }
+  ]
+},
+{   "intent": "Tangierrestaurant.arab",
+"utterances": [
+  "ما هي أفضل المطاعم في طنجة؟" 
+  ,"ما هي أفضل المطاعم في طنجة" 
+  ,"ما المطاعم التي تنصحون بها في طنجة؟" 
+  ,"ماذا تقترح في مطاعم طنجة؟"
+],
+"answers": [
+  {
+    "answer": "إليك بعض من أفضل المطاعم التي يمكنك زيارتها في طنجة: مطعم Kebdani \n ar.tripadvisor.com \n مطعم الميموني \n https://www.eat.ma/tanger/al-maimouni \n Restaurant O Saveur \n  https://meilleursrestaurants.ma/restaurant/o-saveur "
+  }
+]
+},
+{
+  "intent": "Dakhlahotels.arab",
+  "utterances": [
+      "ما هي الفنادق الأفضل تصنيفًا في الداخلة؟"
+     , "ما هي أفضل الفنادق في الداخلة" 
+     , "ما الفنادق التي تنصح بها في الداخلة؟" 
+     , "ماذا تقدمون في فنادق الداخلة؟"
+    ] ,
+  "answers": [
+    {
+      "answer": "هناك العديد من الفنادق المرموقة مثل: -->Dakhla Camp https://www.dakhlabooking.com/fr/1059791/dakhla-camp \n--> Dakhla White House https://www.white-house.ma/en/  "
+    }
+  ]
+},
+{
+  "intent": "DakhlaPlacesToVisit.arab",
+  "utterances": [
+
+      "اقتراح اماكن سياحية للزيارة في الداخلة" 
+      ,"ما هي الأماكن الجيدة للزيارة في الداخلة" 
+     , "ما هي آثار مدينة الداخلة"
+  ],
+  "answers": [
+   
+    {
+      "answer": " إليك بعض الأماكن الشيقة التي يمكنك زيارتها في الداخلة: -> شبه جزيرة الداخلة \n -> شبه جزيرة ريو دي أورو \n -> الكثبان الرملية البيضاء \n -> دير الحجر \n--> المنارة "
+  }
+  ]
+},
+{
+  "intent": "Dakhlaactivities.arab",
+  "utterances": [
+      "ما هي الأنشطة التي يمكنني القيام بها في الداخلة؟" 
+     , "أنشطة مبهجة يمكنني القيام بها في الداخلة؟" 
+     , "ما هي أفضل الأشياء التي يمكن القيام بها في الداخلة؟"
+  ],
+  "answers": [
+    
+    {
+      "answer":"هناك العديد من الأنشطة الشيقة والممتعة التي يمكنك القيام بها في الداخلة: -> ركوب الأمواج على شواطئ الداخلة المختلفة \n "
+    }
+  ]
+},
+{
+  "intent": "Dakhlarestaurant.arab",
+  "utterances": [
+    "ما هي أفضل المطاعم تقييماً في الداخلة؟"
+    ,"ما هي أفضل مطاعم الداخلة" 
+    ,"ما المطاعم التي تنصحني بها في الداخلة؟" 
+    ,"ماذا تقترح في مطاعم الداخلة؟"
+  ],
+  "answers": [
+    {
+      "answer": "إليك بعض أفضل المطاعم التي يمكنك زيارتها في الداخلة: Le Restaurant du Palais Rhoul \n www.palais-rhoul.com \n KAISER WILHELM - Maison de Qualité \n Oceanic \n"
+    }
+  ]
+},
+{
+  "intent": "Chefchaouenrestaurant.arab",
+  "utterances": [
+    "ما هي أفضل المطاعم في شفشاون؟" 
+   , "ما هي أفضل مطاعم شفشاون" 
+    ,"ما المطاعم التي تنصحني بها في شفشاون؟" 
+    ,"ماذا تقترح في مطاعم شفشاون؟"
+  ],
+  "answers": [
+    {
+      "answer": "إليك بعض من أفضل المطاعم التي يمكنك زيارتها في شفشاون: مقهى ومطعم صوفيا \n بيلموس \n سندباد \n مطعم موريسكو"
+      
+    }
+  ]
+},
+{
+  "intent": "Chefchaouenhotels.arab",
+  "utterances": [
+      "ما هي الفنادق الأفضل تصنيفًا في شفشاون؟"
+    ,  "ما هي أفضل الفنادق في شفشاون" 
+     , "ما الفنادق التي تنصح بها في شفشاون؟" 
+     , "ماذا تقدمون في فنادق شفشاون؟"
+  ],
+  "answers": [
+    {
+      "answer": "هناك العديد من الفنادق المرموقة مثل : -->Dar Gabriel https://dar-gabriel-hotel-chefchaouen.booked.net/ \n --> Dar Echchaouen Maison d'Hôtes & Riad https://dar-echchaouen.business.site/  \n --> Lina Ryad & Spa https://lina-ryad-spa-chefchaouen.h-rez.com/ \n --> "
+    }]
+},
+{
+  "intent": "ChefchaouenPlaces.arab",
+  "utterances": [
+      "ما هي الأماكن الجيدة للزيارة في شفشاون" 
+      ,"اقتراح أماكن سياحية لزيارتها في شفشاون" 
+      ,"ما هي آثار شفشاون"
+  ],
+  "answers": [
+   
+    {
+      "answer": "إليك بعض الأماكن الشيقة التي يمكنك زيارتها في شفشاون: -> رأس الماء \n -> شلالات أكشور \n -> شفشاون اللؤلؤة الزرقاء \n -> ساحة الحوطة \n -> متحف القصبة"
+    }
+  ]
+},
+{
+  "intent": "Chefchaouenactivities.arab",
+  "utterances": [
+      "ما هي الأنشطة التي يمكنني القيام بها في شفشاون؟" 
+      ,"أنشطة مبهجة يمكنني القيام بها في شفشاون؟" 
+     , "ما هي أفضل الأشياء التي يمكنك القيام بها في شفشاون؟"
+  ],
+  "answers": [
+    
+    {
+      "answer": "هناك العديد من الأنشطة الشيقة والممتعة التي يمكنك القيام بها في شفشاون: -> التنزه في جبال المنطقة الجميلة \n "
+    }
+  ]
+},
+{
+  "intent": "Alhouceimahotels.arab",
+  "utterances": [
+      "ما هي الفنادق الأفضل تصنيفًا في الحسيمة؟"
+      ,"ما هي أفضل الفنادق في الحسيمة" 
+      ,"ما الفنادق التي توصي بها في الحسيمة؟" 
+      ,"ماذا تقدمون في فنادق الحسيمة؟"
+  ],
+  "answers": [
+    {
+      "answer": "هناك العديد من الفنادق المرموقة مثل :-->Suites Hotel Mohammed V by Accor https://suites-hotel-mohammed-v-al-hoceima.booked.net/\n --> Puerto Marino https://fr.hotels.com/ho755275264/puerto-marino-al-hoceima-maroc/ \n  "
+    }]
+},
+{
+  "intent": "AlhouceimaPlaces.arab",
+  "utterances": [
+      "ما هي الأماكن الجيدة للزيارة في الحسيمة" 
+     , "اقتراح أماكن سياحية لزيارتها في الحسيمة" 
+      ,"ما هي آثار الحسيمة"
+  ],
+  "answers": [
+   
+    {
+      "answer": "إليك بعض الأماكن الشيقة التي يمكنك زيارتها في الحسيمة: -> منتزه الحسيمة الوطني \n -> شاطئ السواني \n -> كورنيش كباديا \n -> شاطئ رمود \n -> شاطئ إسري"
+  }
+  ]
+},
+{
+  "intent": "Alhouceimaactivities.arab",
+  "utterances": [
+      "ما هي الأنشطة التي يمكنني القيام بها في الحسيمة؟" 
+     , "أنشطة سعيدة يمكنني القيام بها في الحسيمة؟" 
+     , "ما هي أفضل الأشياء التي يمكن القيام بها في الحسيمة؟"
+  ],
+  "answers": [
+    
+    {
+      "answer": "هناك العديد من الأنشطة الشيقة والممتعة التي يمكنك القيام بها في الحسيمة: -> ركوب الأمواج\n "
+    }
+  ]},
+  {
+    "intent": "Morocco.food",
+    "utterances": [
+      "ماذا يمكنني أن أحاول أن آكل عندما أتيت إلى المغرب؟" 
+      ,"أفضل الأطعمة؟" 
+      ,"أفضل الأطباق في المغرب؟"
+    ],
+    "answers": [
+      {
+        "answer":"هناك الكثير من الأطباق اللذيذة التي يجب أن تجربها عندما تزور المغرب. ومن أشهر تلك الأطباق: \n \n- باستيلا: هذا طبق مغربي يقدم نكهات حلوة ومالحة. نوع من الفطيرة ذات الطبقات ، مع الكثير من طبقات عجينة الورقاء ، وطبقة باللوز ، وطبقة من الحمام. \n- البروشيت (الكباب): البروشيت مغربي ، وشمال أفريقي بشكل عام ، أسياخ ، مع استخدام المصطلح في الرجوع إلى الأسياخ بشكل عام. \n- الكسكس: لعل أشهر الأطعمة المغربية هو الكسكس ، وهو الطعام الأساسي الموجود في مطابخ شمال إفريقيا ، وكذلك في العديد من المطابخ في جميع أنحاء العالم اليوم. إنه مصنوع من السميد ، وهو نوع من القمح القاسي. في المغرب على وجه التحديد ، يتم تقديم الكسكس غالبًا مع الخضار المطهية بالإضافة إلى اللحوم. ويمكن أيضًا تقديمه كوجبة أخيرة في الوجبة. \n- قرون الغزال (كعب الغزال): لا تفعل دع الاسم يجعلك تتخطى أي دقات قلب - لا توجد قرون غزال حقيقية تؤكل في هذا الطبق! بدلاً من ذلك ، كعب الغزال هو أكتوا طبق حلوى ، بسكويت على شكل هلال على وجه الدقة. \n- رفيسا: يُقدم خلال أنواع مختلفة من الاحتفالات ، خاصة للاحتفال بالولادة ، طبق الرفيسا هو طبق من الدجاج والعدس يُقدم على مسمن مبشور. "
+      }
+    ]
+  },
+  
+{
+  "intent": "user.thankingAR",
+  "utterances": [
+      "شكرًا"
+
+      ,"شكرا جزيلا"
+  ],
+  "answers": [
+    { "answer": "لا شكر على واجب!"},
+    { "answer": "بكل سرور!"},
+    { "answer": "على الرحب و السعة!"}
+  ]
+}
+]}

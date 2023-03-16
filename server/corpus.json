@@ -1,0 +1,641 @@
+{
+  "name": "Corpus",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "greetings.bye",
+      "utterances": [
+        "goodbye for now",
+        "bye bye take care",
+        "okay see you later",
+        "bye for now",
+        "i must go",
+        "bye"
+      ],
+      "answers": [
+        {
+          "answer": "Till next time"
+        },
+        {
+          "answer": "see you soon!"
+        }
+      ]
+    },
+    {
+      "intent": "greeting.french",
+      "utterances": [
+        "u speak french?",
+        "do u speak french?",
+        "do you speak french?",
+        "you speak french?",
+        "u speak english?",
+        "do u speak english?",
+        "do you speak english?",
+        "you speak english?"
+        
+      ],
+      "answers": [
+        {
+          "answer": "yes i do!"
+        },
+        {
+          "answer": "yep! i'm really smart"
+        }
+      ]
+    },
+    {
+      "intent": "greetings.howu",
+      "utterances": [
+        "how are you",
+        "how are u",
+        "how are you doing",
+        "you good",
+        "are you okay"
+      ],
+      "answers": [
+        {
+          "answer": "i'm having a wonderful time!"
+        },
+        {
+          "answer": "i'm great!"
+        },
+        {
+          "answer": "good thanks!"
+        }
+      ]
+    },
+    {
+      "intent": "greetings.whatUdoing",
+      "utterances": [
+        "what you doing?"
+    
+      ],
+      "answers": [
+        {
+          "answer": "i'm waiting for you to ask"
+        },
+        {
+          "answer": "waiting to answer your questions"
+        },
+        {
+          "answer": "getting ready to help you"
+        }
+      ]
+    },
+    {
+      "intent": "greetings.howOld",
+      "utterances": [
+        "how old are you"
+      ],
+      "answers": [
+        {
+          "answer": "3 months old"
+        }
+      ]
+    },
+    {
+      "intent": "greetings.name",
+      "utterances": [
+        "what's your name"
+      ],
+      "answers": [
+        {
+          "answer": "you can call me your assistant"
+        }
+      ]
+    },
+    {
+      "intent": "greetings.whoRyou",
+      "utterances": [
+        "who are you"
+      ],
+      "answers": [
+        {
+          "answer": "i'm the best travel assistant in the world"
+        }
+      ]
+    },
+    {
+      "intent": "greetings.ask",
+      "utterances": [
+        "can i ask",
+        "i have a question",
+        "i have a problem"
+      ],
+      "answers": [
+        {
+          "answer": "tell me"
+        },
+        {
+          "answer": "what's up ?"
+        },
+        {
+          "answer": "feel free to ask"
+        }
+      ]
+    },
+    
+    
+    {
+      "intent": "cities.list",
+      "utterances": [
+        "what are the most touristic cities in Morocco?"
+      ],
+      "answers": [
+        {
+          "answer": "Marrakech,Tanger,Agadir"
+        },{
+          "answer": "Marrakech,Chefchaouen,Tetouan"
+        },{
+          "answer": "Marrakech,Rabat,Alhouseima"
+        },{
+          "answer": "Marrakech,Essaouira,Dakhla"
+        }
+      ]
+    },
+    {
+      "intent": "Marrakech.hotel",
+      "utterances": [
+        "what are the top rated hotels in Marrakech ?",
+        "what are the best hotels in Marrakech",
+        "what hotels do you recommend in Marrakech ?",
+        "what do you suggest in hotels in Marrakech  ?"
+      ],
+      "answers": [
+       {
+          "answer": "four seasons \nhttps://www.fourseasons.com/marrakech/\n Sofitel Marrakech Palais Imperial\n https://sofitelmarrakechimperial.hotels-marrakesh.com/fr/\n Royal Mansour Marrakech\n https://www.royalmansour.com/\n The Oberoi Marrakech \nhttps://www.oberoihotels.com/fr-fr/hotels-au-maroc-marrakech/ \n Fairmont Royal Palm Marrakech \nhttps://www.fairmont.com/marrakech/\n Les Jardins De La Koutoubia \nhttp://www.lesjardinsdelakoutoubia.com/fr/hotel-luxe-marrakech"
+        }
+      ]
+    },
+    {
+      "intent": "Marrakech.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Marrakech",
+        "suggest touristic places to visit in Marrakech",
+        "what are the monuments in Marrakech"
+      ],
+      "answers": [
+        {
+          "answer": "There are a lot of wonderfull places in Marrakech that you can visit such as :\n **Le Jardin Secret\n **Jardin Majorelle\n **Bahia Palace\n**Jemaa el-Fnaa\n **Koutoubia Mosque \n **Yves Saint Laurent Marrakech museum"
+          
+        }
+      ]
+    },
+    {
+      "intent": "Marrakech.activities",
+      "utterances": [
+        "what are some activities that i can do in Marrakech",
+        "any joyfull activities that i can do in Marrakech ?",
+        "what are some of the best things to do in Marrakech"
+      ],
+      "answers": [
+        {
+          "answer": "Here are some good activities that you can enjoy spending your time on in Marrekech : \n**Hot Air Balloon Flight over Marrakech\n**Agafay Desert - Quad Camel\n**Marrakech Palmeraie Quad Bike Desert Adventure\n**Ouzoud Waterfalls from Marrakech with Boat Ride \n"
+        }
+      ]
+    },{
+      "intent": "Marrakech.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Marrakech ?",
+        "what are the best restaurants in Marrakech",
+        "what restaurants do you recommend in Marrakech ?",
+        "what do you suggest in restaurants in Marrakech ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in marrakech : La Table Ocre\n https://www.medinamall.ma/table-ocre \n Nouba \n  https://nouba-marrakech.ma/ Votre Table\n https://www.votretablemarrakech.com/"
+          
+        }
+      ]
+    },
+    {
+      "intent": "Rabat.hotels",
+      "utterances": [
+        "what are the top rated hotels in Rabat ?",
+        "what are the best hotels in Rabat",
+        "what hotels do you recommend in Rabat ?",
+        "what do you suggest in hotels in Rabat ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best hotels that you can book in Rabt : The View Hotel \n https://theviewhotelrabat.com/\n Rabat Marriott Hotel\nhttps://www.booking.com/hotel/ma/rabat-marriott.en-gb.html?aid=356980&label=gog235jc-1BCAcojAFCC3JhYmF0X2FnZGFsSDNYA2iMAYgBAZgBCbgBF8gBD9gBAegBAYgCAagCA7gC3ur3nwbAAgHSAiRhYmNlNzJkZC03NmUyLTQ5YzItOTVjNC00M2EyYTVjNjAwNGLYAgXgAgE&sid=a6fc16a3798df4b55289666e6e1b5b9d\nFirst Suites Hôtel\nHotel Atlantic Agdal\nhttps://www.booking.com/hotel/ma/first.en-gb.html?aid=356980&label=gog235jc-1BCAcojAFCC3JhYmF0X2FnZGFsSDNYA2iMAYgBAZgBCbgBF8gBD9gBAegBAYgCAagCA7gC3ur3nwbAAgHSAiRhYmNlNzJkZC03NmUyLTQ5YzItOTVjNC00M2EyYTVjNjAwNGLYAgXgAgE&sid=a6fc16a3798df4b55289666e6e1b5b9d\nSoundouss Hotel\nhttps://www.booking.com/hotel/ma/soundouss.en-gb.html?aid=356980&label=gog235jc-1BCAcojAFCC3JhYmF0X2FnZGFsSDNYA2iMAYgBAZgBCbgBF8gBD9gBAegBAYgCAagCA7gC3ur3nwbAAgHSAiRhYmNlNzJkZC03NmUyLTQ5YzItOTVjNC00M2EyYTVjNjAwNGLYAgXgAgE&sid=a6fc16a3798df4b55289666e6e1b5b9d\nhttps://www.booking.com/hotel/ma/atlantic-agdal.en-gb.html?aid=356980&label=gog235jc-1BCAcojAFCC3JhYmF0X2FnZGFsSDNYA2iMAYgBAZgBCbgBF8gBD9gBAegBAYgCAagCA7gC3ur3nwbAAgHSAiRhYmNlNzJkZC03NmUyLTQ5YzItOTVjNC00M2EyYTVjNjAwNGLYAgXgAgE&sid=a6fc16a3798df4b55289666e6e1b5b9d"
+        }
+      ]
+    },
+    {
+      "intent": "Rabat.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Rabat",
+        "suggest touristic places to visit in Rabat",
+        "what are the monuments in Rabat"
+      ],
+      "answers": [
+        {
+          "answer": "Here are some of the great places that you should visit if you came to Rabat: Hassan Tower\n Kasbah of the Udayas\n Mausoleum of Mohammed V\n Andalusian Gardens\n Exotic Gardens "
+        }
+      ]
+    },
+    {
+      "intent": "Rabat.activities",
+      "utterances": [
+        "what are some activities that i can do in Rabat ?",
+        "any joyfull activities that i can do in Rabat ?",
+        "what are some of the best things to do in Rabat ?"
+      ],
+      "answers": [
+        {
+          "answer": "you can visit 'Escape Now Rabat' , the biggest Escape Game Center in Rabat invites you to discover its 3 different immersive Escape Rooms. Locked in a mysterious Room, You'll have to solve puzzles, break through mysteries, open locks and secret doors while collaborating together for the ultimate goal of escaping in less than 60 minutes. \n--> you can visit Electric Dreams is the first space dedicated to virtual reality in Morocco. We represent the latest in technology and entertainment by offering VR experiences to people in Morocco. We have single and multiplayer games and experiences that range from shooting zombies to exploring real-world places to scientifically accurate medical dissections. \n -->You can visit Le Mur The first and biggest Climbing GYM in Morocco. Le Mur is located in the Heart of Rabat just near to the most prestigious Hotel 'Sofitel'. We offer more than 120 Climbing routes, and a special Area for Bouldering. "
+        }
+      ]
+    },{
+      "intent": "Rabat.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Rabat ?",
+        "what are the best restaurants in Rabat",
+        "what restaurants do you recommend in Rabat ?",
+        "what do you suggest in restaurants in Rabat ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in Rabat : Resturant Sufra\n https://restaurantguru.com/Resturant-sufra-Rabat\n basilico restoconcept \n Golden Fish\n https://www.visitrabat.com/en/lieux/golden-fish/"
+          
+        }
+      ]
+    },
+    {
+      "intent": "Essaouira.hotels",
+      "utterances": [
+        "what are the top rated hotels in Essaouira ?",
+        "what are the best hotels in Essaouira",
+        "what hotels do you recommend in Essaouira ?",
+        "what do you suggest in hotels in Essaouira ?"
+      ],
+      "answers": [
+        {
+          "answer": "The are lot of prestigiuos hotels out there like : -->Riad Dar Maya\n Riad Chbanate\n Riad Lyon-Mogador\n"
+    }]
+    },
+    {
+      "intent": "Essaouira.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Essaouira",
+        "suggest touristic places to visit in Essaouira",
+        "what are the monuments in Essaouira"
+      ],
+      "answers": [
+       
+        {
+          "answer": " Here are some interesting places that you can visit in Essaouira :--> Galerie la Kasbah\n--> Centre de la Bijouterie Artisanale Maalem Ali 1908\n-->Le Souk \n --> Essaouira Fishing Port\n --> Centre d'art Le Real Mogador"
+        }
+      ]
+    },
+    {
+      "intent": "Essaouira.activities",
+      "utterances": [
+        "what are some activities that i can do in Essaouira ?",
+        "any joyfull activities that i can do in Essaouira ?",
+        "what are some of the best things to do in Essaouira ?"
+      ],
+      "answers": [
+        
+        {
+          "answer": "There a lot of intersting and fun activities that you can enjoy doing in Essaouira: like Horse Riding  that offers you horseback riding and camels riding In Essaouira and its region. you can Discover wild and magnificent landscapes, between beaches, dunes and forest for an unforgettable experience\n-->you can try surfing on essaouira beaches "
+        }
+      ]
+    },{
+      "intent": "Essaouira.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Essaouira ?",
+        "what are the best restaurants in Essaouira",
+        "what restaurants do you recommend in Essaouira ?",
+        "what do you suggest in restaurants in Essaouira ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in Essaouira : O'Bleu Mogador \n https://obleu-mogador.com/ \n La Table by Madada \n https://madada.com/restaurant-essaouira/ \n L'Heure Bleue Palais\n https://www.heure-bleue.com/ "
+          
+        }
+      ]
+    
+    },
+    {
+      "intent": "Agadir.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Agadir ?",
+        "what are the best restaurants in Agadir",
+        "what restaurants do you recommend in Agadir ?",
+        "what do you suggest in restaurants in Agadir ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in Agadir : L'Ardoise Gourmande\n https://www.ardoise-gourmande.com/ \n Somasushi \n somasushi.ma \n Le Petit Kawa\n Roastery Agadir\n "
+        }
+      ]
+    },
+    {
+      "intent": "Agadir.hotels",
+      "utterances": [
+        "what are the top rated hotels in Agadir ?",
+        "what are the best hotels in Agadir",
+        "what hotels do you recommend in Agadir ?",
+        "what do you suggest in hotels in Agadir ?"
+      ],
+      "answers": [
+        {
+          "answer": "There are lot of prestigiuos hotels out there like : -->Hotel Riu Palace Tikida Agadir  https://www.relaischateaux.com/fr/maroc/heurebleue-essaouira\n --> PRESTIGIA ESSAOUIRA MOGADOR Luxury en bord de mer https://prestigia-mogador-diabat.booked.net/ \n -->Maison Kasba Bonheur & Bien etre Emma & Gilles https://kasbabonheuretbien-etre.com/\n --> Sofitel Essaouira Mogador Golf & Spa https://www.sofitel-essaouira.com/  "
+        }
+      ]
+    },
+    {
+      "intent": "Agadir.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Agadir",
+        "suggest touristic places to visit in Agadir",
+        "what are the monuments in Agadir"
+      ],
+      "answers": [
+       
+        {
+          "answer": " Here are some interesting places that you can visit in Agadir :--> Agadir Oufella\n--> Souk El Had\n-->Crocoparc \n --> Marina luxury apartments Agadir\n -->Agadir Dolphin World "
+        }
+      ]
+    },
+    {
+      "intent": "Agadir.activities",
+      "utterances": [
+        "what are some activities that i can do in Agadir ?",
+        "any joyfull activities that i can do in Agadir ?",
+        "what are some of the best things to do in Agadir ?"
+      ],
+      "answers": [
+        
+        {
+          "answer": "There a lot of intersting and fun activities that you can enjoy doing in Agadir: -->Agadir ATV Quad / wild beach dunnes and forest in the Heart of Agadir\n-->Hot Air Balloon Excursion in Agadir\n-->Horse Riding "
+        }
+      ]
+    },
+    {
+      "intent": "Tangier.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Tangier ?",
+        "what are the best restaurants in Tangier",
+        "what restaurants do you recommend in Tangier ?",
+        "what do you suggest in restaurants in Tangier ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in Tangier : Restaurant Kebdani\n ar.tripadvisor.com \n Restaurant Al Maimouni \n https://www.eat.ma/tanger/al-maimouni \n Restaurant O Saveur \n https://meilleursrestaurants.ma/restaurant/o-saveur"
+          
+        }
+      ]
+    },
+    {
+      "intent": "Tangier.hotels",
+      "utterances": [
+        "what are the top rated hotels in Tangier ?",
+        "what are the best hotels in Tangier",
+        "what hotels do you recommend in Tangier ?",
+        "what do you suggest in hotels in Tangier ?"
+      ],
+      "answers": [
+        {
+          "answer": "There are lot of prestigiuos hotels out there like : -->Marina Bay  https://marinabay.com-hotel.com/ \n --> Fairmont Tazi Palace Tangier https://www.fairmont.com/tangier/ \n --> Hilton Tanger City Center Hotel & Residences https://www.hilton.com/en/hotels/tngcchi-hilton-tanger-city-center-hotel-and-residences/ \n Grand Hotel Villa de France  https://leroyal.com/en/AFRICA/grand-hotel-villa "
+        }
+      ]
+    },
+    {
+      "intent": "Tangier.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Tangier",
+        "suggest touristic places to visit in Tangier",
+        "what are the monuments in Tangier"
+      ],
+      "answers": [
+       
+        {
+          "answer": " Here are some interesting places that you can visit in Tangier :--> Hercules Caves\n--> Kasbah Museum\n-->Cape Spartel \n --> Achakkar Beach\n -->Dalia Beach "
+        }
+      ]
+    },
+    {
+      "intent": "Tanger.activities",
+      "utterances": [
+        "what are some activities that i can do in Tanger ?",
+        "any joyfull activities that i can do in Tanger ?",
+        "what are some of the best things to do in Tanger ?"
+      ],
+      "answers": [
+        
+        {
+          "answer": "There a lot of intersting and fun activities that you can enjoy doing in Tanger: -->Camel ride in Tanger beside the beach \n "
+        }
+      ]
+    },
+    {
+      "intent": "Dakhla.hotels",
+      "utterances": [
+        "what are the top rated hotels in Dakhla ?",
+        "what are the best hotels in Dakhla",
+        "what hotels do you recommend in Dakhla ?",
+        "what do you suggest in hotels in Dakhla ?"
+      ],
+      "answers": [
+        {
+          "answer": "There are lot of prestigiuos hotels out there like : -->Dakhla Camp https://www.dakhlabooking.com/fr/1059791/dakhla-camp \n--> Dakhla White House https://www.white-house.ma/en/  "
+        }
+      ]
+    },
+    {
+      "intent": "Dakhla.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Dakhla",
+        "suggest touristic places to visit in Dakhla",
+        "what are the monuments in Dakhla"
+      ],
+      "answers": [
+       
+        {
+          "answer": " Here are some interesting places that you can visit in Dakhla :--> Presqu'île de Dakhla\n--> Peninsula de Rio de Oro\n-->White Dune Kiting \n --> Deir el-Hagar\n -->Lighthouse "
+        }
+      ]
+    },
+    {
+      "intent": "Dakhla.activities",
+      "utterances": [
+        "what are some activities that i can do in Dakhla ?",
+        "any joyfull activities that i can do in Dakhla ?",
+        "what are some of the best things to do in Dakhla ?"
+      ],
+      "answers": [
+        
+        {
+          "answer": "There a lot of intersting and fun activities that you can enjoy doing in Dakhla: -->surfing in the differnt beaches of dakhla  \n "
+        }
+      ]
+    },
+    {
+      "intent": "Dakhla.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Dakhla ?",
+        "what are the best restaurants in Dakhla",
+        "what restaurants do you recommend in Dakhla ?",
+        "what do you suggest in restaurants in Dakhla ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in Dakhla : Le Restaurant du Palais Rhoul \n www.palais-rhoul.com \n KAISER WILHELM - Maison de Qualité \n Oceanic\n  "
+          
+        }
+      ]
+    },
+    {
+      "intent": "Chefchaouen.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Chefchaouen ?",
+        "what are the best restaurants in Chefchaouen",
+        "what restaurants do you recommend in Chefchaouen ?",
+        "what do you suggest in restaurants in Chefchaouen ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in Chefchaouen : Cafe Restaurant Sofia\n Bilmos\n Sindibad\nRestaurant Morisco "
+          
+          
+        }
+      ]
+    },
+    {
+      "intent": "Chefchaouen.hotels",
+      "utterances": [
+        "what are the top rated hotels in Chefchaouen ?",
+        "what are the best hotels in Chefchaouen",
+        "what hotels do you recommend in Chefchaouen ?",
+        "what do you suggest in hotels in Chefchaouen ?"
+      ],
+      "answers": [
+        {
+          "answer": "There are lot of prestigiuos hotels out there like : -->Dar Gabriel https://dar-gabriel-hotel-chefchaouen.booked.net/ \n --> Dar Echchaouen Maison d'Hôtes & Riad https://dar-echchaouen.business.site/  \n --> Lina Ryad & Spa https://lina-ryad-spa-chefchaouen.h-rez.com/ \n --> "
+        }]
+    },
+    {
+      "intent": "Chefchaouen.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Chefchaouen",
+        "suggest touristic places to visit in Chefchaouen",
+        "what are the monuments in Chefchaouen"
+      ],
+      "answers": [
+       
+        {
+          "answer": " Here are some interesting places that you can visit in Chefchaouen:--> Ras El Ma\n--> Waterfalls Akchour\n-->Chefchaoun The Blue pearl \n --> Place El Haouta\n -->Kasbah Museumem "
+        }
+      ]
+    },
+    {
+      "intent": "Chefchaouen.activities",
+      "utterances": [
+        "what are some activities that i can do in Chefchaouen ?",
+        "any joyfull activities that i can do in Chefchaouen ?",
+        "what are some of the best things to do in Chefchaouen ?"
+      ],
+      "answers": [
+        
+        {
+          "answer": "There a lot of intersting and fun activities that you can enjoy doing in Chefchaouen: -->Hiking in the beautifull mountains in the area \n "
+        }
+      ]
+    },
+    {
+      "intent": "Alhouceima.restaurant",
+      "utterances": [
+        "what are the top rated restaurants in Alhouceima ?",
+        "what are the best restaurants in Alhouceima",
+        "what restaurants do you recommend in Alhouceima ?",
+        "what do you suggest in restaurants in Alhouceima ?"
+      ],
+      "answers": [
+        {
+          "answer": "here are some of the best restaurants that you can visit in Alhouceima : Wok.In Al Hoceima\n Mb Food\n Buena Vista Cafe\n Break Alhoceima"
+          
+          
+        }
+      ]
+    },
+    {
+      "intent": "Alhouceima.hotels",
+      "utterances": [
+        "what are the top rated hotels in Alhouceima ?",
+        "what are the best hotels in Alhouceima",
+        "what hotels do you recommend in Alhouceima ?",
+        "what do you suggest in hotels in Alhouceima?"
+      ],
+      "answers": [
+        {
+          "answer": "There are lot of prestigiuos hotels out there like : -->Suites Hotel Mohammed V by Accor https://suites-hotel-mohammed-v-al-hoceima.booked.net/\n --> Puerto Marino https://fr.hotels.com/ho755275264/puerto-marino-al-hoceima-maroc/ \n  "
+        }]
+    },
+    {
+      "intent": "Alhouceima.PlacesToVisit",
+      "utterances": [
+        "what are some good places to visit in Alhouceima",
+        "suggest touristic places to visit in Alhouceima",
+        "what are the monuments in Alhouceima"
+      ],
+      "answers": [
+       
+        {
+          "answer": " Here are some interesting places that you can visit in Alhouceima:--> Al Hoceima National Park\n--> Plage Souani\n-->Corniche Cabadia \n --> Plage Rmod\n -->Plage Isri "
+        }
+      ]
+    },
+    {
+      "intent": "Alhouceima.activities",
+      "utterances": [
+        "what are some activities that i can do in Alhouceima ?",
+        "any joyfull activities that i can do in Alhouceima ?",
+        "what are some of the best things to do in Alhouceima ?"
+      ],
+      "answers": [
+        
+        {
+          "answer": "There a lot of intersting and fun activities that you can enjoy doing in Alhoceima: -->Surfing \n "
+        }
+      ]
+    },
+    {
+      "intent": "Morocco.food",
+      "utterances": [
+        "what can i try eating when coming to morocco?",
+        "best foods?",
+        "best dishes in morocco?"
+      ],
+      "answers": [
+        {
+          "answer": "There are a lot of tasty dishes that you should try when you visit Morocco. Some of the most popular ones include:\n\n- B'stila: This is a Moroccan dish that plays with both sweet and savory flavors. It's a kind of layered pie, with a lot of warqa dough layers, a layer with almonds, and a layer with pigeon.\n- Brochettes (kebabs): Brochettes are Moroccan, and North African in general, skewers, with the term being used to refer to skewers in general.\n- Couscous: Perhaps the best-known of all Moroccan foods is couscous, the staple food found across the North African cuisines, as well as in many kitchens worldwide today. It is made from semolina, which is a type of durum wheat. In Morocco specifically, couscous is often served with stewed vegetables, as well as meat. It can also be served as a final course of a meal.\n- Gazelle horns (Kaab el Ghazal): Don't let the name get you skipping any heartbeats - there are no real gazelle horns eaten in this dish! Instead, Kaab el Ghazal is actually a dessert dish, a crescent-shaped cookie to be precise.\n- Rfissa: Served during various different kinds of celebrations, especially to celebrate childbirth, rfissa is a chicken and lentils dish served over shredded msemen."
+        }
+      ]
+    },
+    
+    {
+      "intent": "greetings.hello",
+      "utterances": [
+        "hello",
+        "hi",
+        "yo",
+        "hey",
+        "greetings",
+        "hey there",
+        "hola",
+        "What's up?"
+      ],
+      "answers": [
+        {
+          "answer": "Hey there!"
+        },
+        {
+          "answer": "Greetings!"
+        }
+      ]
+    }
+  ]
+}

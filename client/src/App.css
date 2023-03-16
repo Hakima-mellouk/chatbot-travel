@@ -1,0 +1,27 @@
+.App {
+  min-width: 100vw;
+ height: 35vh;
+}
+body{
+  background-color: black;
+    
+  background-image: url(../avion.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  
+  .p1{
+  font-family: 'Brush Script MT';
+  font-size: 45px;
+  }
+  .p2{
+  font-family: 'Brush Script MT';
+  font-size: 40px;
+  }
+  .titre{
+  
+  margin-left: 10%;
+  margin-top:20%;
+  }

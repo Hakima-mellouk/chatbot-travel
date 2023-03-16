@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@nlpjs/basic": "^4.23.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-nlp": "^4.24.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4",
+    "sugar": "^2.0.6"
+  },
+  "name": "server2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
